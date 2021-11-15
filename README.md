@@ -9,7 +9,7 @@ Simple and organized task tracking that separates general objectives or topics f
 
 Main App
 :-------------------------:
-![](src\assets\screenshots\main.PNG?raw=true "Main")
+![](https://github.com/Pedrowesley/Trello-clone-Angular/blob/main/src/assets/screenshots/main.PNG "Main")
 
 ## Features
 
