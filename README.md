@@ -9,7 +9,7 @@ Simple and organized task tracking that separates general objectives or topics f
 
 Main App
 :-------------------------:
-![Alt text](src\assets\screenshots\main.PNG?raw=true "Main")
+![](src\assets\screenshots\main.png?raw=true "Main")
 
 ## Features
 
