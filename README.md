@@ -1,27 +1,28 @@
-# Frontend
+# Trello Clone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+A Front-end clone of Trello with the Angular.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Trello Clone is an interface-only task management web application. The app supports personal task boards, allowing
+Simple and organized task tracking that separates general objectives or topics from specific tasks.
 
-## Code scaffolding
+Main App
+:-------------------------:
+![Alt text](src\assets\screenshots\main.PNG?raw=true "Main")
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- UI written in modern **Angular**, using available technology resources
+- UI written exclusively with custom CSS styling
+- Mock written in **JSON Server**
+- Cards details managed with HTTPS REST architecture
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Installation
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Install JSON Server `npm install -g json-server`
+- Clone this repository
+- Run Json Server in another terminal `json-server --watch api/db.json`
+- Run `npm install` to install dependencies
+- Run in terminal of application `ng serve`
+- Frontend should be running on `http://localhost:4200` and API mock on `http://localhost:3000`
